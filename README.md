@@ -1,6 +1,6 @@
 ## Summoners War Development Project
 
-![summoners war image](https://github.com/user-attachments/assets/f68f2013-b022-412a-bab5-9568cd04b2d3)
+![summoners war image](./images/summoners%20war%20image.jpg)
 
 - '2014 대한민국 게임대상'에서 우수상과 기술창작상(기획/시나리오 부문)을 수상한 컴투스의 모바일 게임 서머너즈워가 10주년을 맞았다. 서머너즈워는 본인이 가장 즐겨하는 게임 중 하나로, 이 게임이 더 오랜 시간 서비스를 할 수 있는지, 어떤 것을 발전시켜야 할지 탐구하고자 분석 및 기획 제안 프로젝트를 진행하고자한다.
  
@@ -23,14 +23,14 @@
 
 ### 1. 연도별 워드클라우드
 
-![연도별 워드클라우드](image.png)
+![연도별 워드클라우드](./images/image.png)
 
 - 연도별 기준을 나누어 어떤 문제점들을 이야기하는지 키워드 탐색
 - 워드클라우드로 시각화
 
 ### 2. 연도별 건의사항 토픽별 빈도수
 
-![연도별 건의사항 토픽별 빈도수](image-1.png)
+![연도별 건의사항 토픽별 빈도수](./images/image-1.png)
 
 - 좋아요 수 1개 이상인 텍스트들에 대해 토픽 부여
 - 주제가 될 만한 키워드들을 생성 후 각 텍스트에 주제 할당 이후 시각화
@@ -40,13 +40,13 @@
 ### 3. 핵심 키워드 관련 게시글 분석
 
 #### (1) 폭주 키워드 관련 본문 텍스트
-![alt text](image-2.png)
-![alt text](image-3.png)
+![alt text](./images/image-2.png)
+![alt text](./images/image-3.png)
 - 폭주는 발동 확률에 대한 언급이 가장 많아보인다.
 - 점령전, 실시간 아레나, 방덱, 턴 획득과 관련이 있으며 게임에 영향이 큰 것으로 보임.
 #### (2) 실시간 아레나 키워드 관련 본문 텍스트
-![alt text](image-4.png)
-![alt text](image-5.png)
+![alt text](./images/image-4.png)
+![alt text](./images/image-5.png)
 - 폭주와 연관이 가장 큼. 실시간 아레나에서의 폭주 영향력을 유추할 수 있음.
 - 마찬가지로 확률에 대한 건의사항이 잦음.
 
