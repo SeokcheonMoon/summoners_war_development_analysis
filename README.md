@@ -11,21 +11,59 @@
 |--|--|--|--|--|
 |1|데이터 수집 및 전처리|2024.10.22|서머너즈워 네이버 공식 카페 건의사항 게시글 제목 크롤링|[1](https://github.com/SeokcheonMoon/summoners_war_development_analysis/blob/main/1.%20crawling_suggestion_naver_cafe.ipynb)|
 |2|키워드 시각화(워드클라우드)|2024.11.07|연도별 키워드 시각화|[2](https://github.com/SeokcheonMoon/summoners_war_development_analysis/blob/main/2.%20analysis_wordcloud.ipynb)|
-|3|주제 분석|2024.11.10|좋아요 수 기준 토픽 분석|[3](https://github.com/SeokcheonMoon/summoners_war_development_analysis/blob/main/3_analysis_like_counts.ipynb)|
+|3|주제 분석|2024.11.10|좋아요 수 기준 토픽 분석|[3](https://github.com/SeokcheonMoon/summoners_war_development_analysis/blob/main/3.%20analysis_like_counts.ipynb)|
 |4|키워드 관련 텍스트 재수집|2024.11.14|서머너즈워 네이버 공식 카페 키워드 관련 본문 크롤링|[4](https://github.com/SeokcheonMoon/summoners_war_development_analysis/blob/main/4.%20crawling_keyword_text.ipynb)|
-|5|특정 키워드 분석 시각화|2024.11.14|본문 텍스트에서 키워드 추출 및 시각화|[5](https://github.com/SeokcheonMoon/summoners_war_development_analysis/blob/main/5.analysis_keyword.ipynb)|
+|5|특정 키워드 분석 시각화|2024.11.14|본문 텍스트에서 키워드 추출 및 시각화|[5](https://github.com/SeokcheonMoon/summoners_war_development_analysis/blob/main/5.%20analysis_keyword.ipynb)|
 ||업데이트 방안 제시|2024.11.14|건의사항에 대한 해결 방안 작성||
-|6|||||
-|8|||||
-|9|||||
+|6|차후 건의사항 수집 이후 토픽 분류 모델 생성||||
 
 
 
-## 분석 결과 / 인사이트 도출
+## 분석 결과
 
-- 
+### 1. 연도별 워드클라우드
+
+![연도별 워드클라우드](image.png)
+
+- 연도별 기준을 나누어 어떤 문제점들을 이야기하는지 키워드 탐색
+- 워드클라우드로 시각화
+
+### 2. 연도별 건의사항 토픽별 빈도수
+
+![연도별 건의사항 토픽별 빈도수](image-1.png)
+
+- 좋아요 수 1개 이상인 텍스트들에 대해 토픽 부여
+- 주제가 될 만한 키워드들을 생성 후 각 텍스트에 주제 할당 이후 시각화
+- 대체적으로 매년 편의/시스템 기능, 몬스터, PvE, 룬 문제에 대한 건의사항이 많다는 것을 볼 수 있음. 
+- 다만, 다른 topic의 건의사항은 많이 없다는 것이 아니라 공감을 받은 건의사항에 대한 지표일 뿐임.
+
+### 3. 핵심 키워드 관련 게시글 분석
+
+#### (1) 폭주 키워드 관련 본문 텍스트
+![alt text](image-2.png)
+![alt text](image-3.png)
+- 폭주는 발동 확률에 대한 언급이 가장 많아보인다.
+- 점령전, 실시간 아레나, 방덱, 턴 획득과 관련이 있으며 게임에 영향이 큰 것으로 보임.
+#### (2) 실시간 아레나 키워드 관련 본문 텍스트
+![alt text](image-4.png)
+![alt text](image-5.png)
+- 폭주와 연관이 가장 큼. 실시간 아레나에서의 폭주 영향력을 유추할 수 있음.
+- 마찬가지로 확률에 대한 건의사항이 잦음.
+
+=> 즉 폭주, 실시간 아레나는 깊은 연관성을 가지고 있음을 알 수 있다.
 
 ### 기획
+
+#### (1) 매판 리플레이 영상을 수집하고 데이터를 공식적으로 공개
+    + 폭주 발동률이 정상적으로 작동하는지를 유저들에게 확인시켜줄 필요가 있음.
+    + 공식적인 입장을 통해 입증하여 유저들에게 보여준다면 민심 확보에 큰 영향을 줄 것임.
+    + 기대 효과 : 중
+#### (2) 실시간 아레나에서 폭주룬 발동 x -> 다른 룬으로 대체
+    + 폭주는 PVP에서 역전의 발판으로 자주 사용되지만, 유저는 확률에 의존한 채 플레이할 수 밖에 없음.
+    + 하지만 폭주룬 발동을 stop하면 폭주룬 다보유자들에게 불만이 있을 것임.
+    + 폭주룬을 다른 룬으로 대체해주는 기능 추가.
+    + 기대 효과 : 중
+#### (3)
 
 
 ## Reference
