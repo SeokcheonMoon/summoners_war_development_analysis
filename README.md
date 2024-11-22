@@ -1,4 +1,4 @@
-## Summoners War Development Project
+## 서머너즈워 건의사항 분석 및 기획 프로젝트
 
 ![summoners war image](./images/summoners%20war%20image.jpg)
 
