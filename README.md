@@ -32,7 +32,7 @@
 |4|키워드 관련 텍스트 재수집|2024.11.14|서머너즈워 네이버 공식 카페 키워드 관련 본문 크롤링|[4](https://github.com/SeokcheonMoon/summoners_war_development_analysis/blob/main/4.%20crawling_keyword_text.ipynb)|
 |5|특정 키워드 분석 시각화|2024.11.14|본문 텍스트에서 키워드 추출 및 시각화|[5](https://github.com/SeokcheonMoon/summoners_war_development_analysis/blob/main/5.%20analysis_keyword.ipynb)|
 ||업데이트 방안 제시|2024.11.14|건의사항에 대한 해결 방안 작성||
-|6|차후 건의사항 수집 이후 토픽 분류 모델 생성||||
+|6|차후 건의사항 수집 이후 토픽 분류 모델 생성|~|||
 
 
 ## 분석 결과
